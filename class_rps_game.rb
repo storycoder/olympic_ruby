@@ -8,6 +8,7 @@ puts "You choose rock, paper, scissors, or quit."
 player_choice = gets.chomp
 player_choice.downcase!
 comp_answer = comp_choices.sample
+puts "#{comp_answer}" #added this prove comp_answer is storing properly
 player_score = 0
 comp_score = 0
 until player_choice == "quit"
@@ -45,7 +46,7 @@ until player_choice == "quit"
     puts "Your score is #{player_score} and my score is #{comp_score}"
     puts "Type quit to end the game or rock, paper, scissors to keep playing. "
     player_choice = gets.chomp.downcase
-    comp_answer = comp_choices.sample
+    comp_answer = comp_choices.sample #added this prove comp_answer is storing properly. 
     puts "#{comp_answer}"
 end
 
