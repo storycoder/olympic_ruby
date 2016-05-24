@@ -7,6 +7,7 @@ puts "Hi #{player_name}. Welcome to Rock, Paper, Scissors."
 puts "You choose rock, paper, scissors, or quit."
 player_choice = gets.chomp
 player_choice.downcase!
+comp_answer = comp_choices.sample
 player_score = 0
 comp_score = 0
 until player_choice == "quit"
