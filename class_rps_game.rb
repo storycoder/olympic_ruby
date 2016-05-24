@@ -1,4 +1,4 @@
-rock paper scissors game where computer plays against a user. Best out of 3
+#rock paper scissors game where computer plays against a user. Best out of 3
 comp_choices = ["rock", "paper", "scissors"] #Added this to the to top for better clarity from line 1
 puts "What is your name?"
 player_name = gets.chomp
