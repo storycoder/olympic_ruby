@@ -36,10 +36,10 @@ until player_choice == "quit"
     elsif player_choice != comp_choices
         puts "You must enter 'rock', 'paper' or 'scissors' please try again."
     end
-    if player_score == 100 #temporarily raised winning counts to test for outcomes. 
+    if player_score == 3 
         puts "The End. You win #{player_name}"
         break
-    elsif comp_score == 100 #temporarily raised winning counts to test for outcomes.
+    elsif comp_score == 3
         puts "I win the game!"
         break
     end
